@@ -107,7 +107,7 @@ public class RegOps
 	
 	public static boolean dropCourse(Course[] mySchedule, int myNumCourses, int dept, int courseNum)
 	{
-		 for (int i = 0; i < myNumCourses; i++) 
+		 for (int i = 1; i < myNumCourses; i++) 
 		 {
              if (mySchedule[i].getDepartment() == dept
                              && mySchedule[i].getCourseNumber() == courseNum) 
